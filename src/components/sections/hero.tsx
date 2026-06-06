@@ -6,9 +6,18 @@ import { motion } from "framer-motion";
 import { ArrowRight, Play, Zap } from "lucide-react";
 
 const stats = [
-  { value: "99.9%", label: "Uptime SLA" },
-  { value: "50M+", label: "API calls / day" },
-  { value: "2,400+", label: "Enterprise clients" },
+  {
+    value: "More Leads",
+    label: "Turn more website visitors into real inquiries with clearer messaging, stronger lead capture, and faster follow-up.",
+  },
+  {
+    value: "Time Savings",
+    label: "Automate routine communication and repetitive tasks so your team can focus on higher-value work.",
+  },
+  {
+    value: "Better Customer Experience",
+    label: "Give customers quicker answers, smoother inquiries, and a more professional experience from the first interaction.",
+  },
 ];
 
 export function Hero() {
@@ -28,7 +37,7 @@ export function Hero() {
               className="mb-6 border-primary/30 bg-primary/10 px-4 py-1 text-primary"
             >
               <Zap className="mr-1.5 size-3" />
-              Now in public beta — v2.0 launch
+              AI Automation & Web Solutions for Growing Businesses
             </Badge>
           </motion.div>
 
@@ -38,8 +47,8 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl"
           >
-            Illuminate your business with{" "}
-            <span className="text-gradient">intelligent AI</span>
+            Capture More Leads and{" "}
+            <span className="text-gradient">Respond Instantly</span>
           </motion.h1>
 
           <motion.p
@@ -48,8 +57,8 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground sm:text-xl"
           >
-            LumoraAI delivers enterprise-grade machine learning infrastructure that
-            scales with your ambition — from real-time inference to autonomous agents.
+            We help businesses get more inquiries, reply faster, and save time with
+            modern websites and AI-powered automation.
           </motion.p>
 
           <motion.div
@@ -63,16 +72,17 @@ export function Hero() {
               className="glow-border h-12 bg-primary px-8 text-base hover:bg-primary/90"
               render={<a href="#contact" />}
             >
-              Start free trial
+              Book a Free Consultation
               <ArrowRight className="ml-1 size-4" />
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="h-12 border-white/10 bg-white/5 px-8 text-base hover:bg-white/10"
+              render={<a href="#services" />}
             >
               <Play className="mr-1.5 size-4" />
-              Watch demo
+              See Our Services
             </Button>
           </motion.div>
         </div>
@@ -107,15 +117,15 @@ export function Hero() {
             <div className="size-3 rounded-full bg-red-500/80" />
             <div className="size-3 rounded-full bg-yellow-500/80" />
             <div className="size-3 rounded-full bg-green-500/80" />
-            <span className="ml-2 font-mono text-xs text-muted-foreground">lumora-cli</span>
+            <span className="ml-2 font-mono text-xs text-muted-foreground">lumora-workflow</span>
           </div>
           <pre className="overflow-x-auto p-6 font-mono text-sm leading-relaxed text-muted-foreground">
             <code>
-              <span className="text-accent">$</span> lumora deploy --model gpt-neural-v3{"\n"}
-              <span className="text-primary">✓</span> Model loaded in 847ms{"\n"}
-              <span className="text-primary">✓</span> Inference endpoint: https://api.lumora.ai/v1{"\n"}
-              <span className="text-primary">✓</span> Auto-scaling enabled (0 → 1000 instances){"\n"}
-              <span className="text-muted-foreground/60">→ Ready to serve 50M requests/day</span>
+              <span className="text-accent">$</span> New inquiry received from website{"\n"}
+              <span className="text-primary">[OK]</span> Lead captured instantly{"\n"}
+              <span className="text-primary">[OK]</span> Auto-reply sent to customer{"\n"}
+              <span className="text-primary">[OK]</span> Team notified for follow-up{"\n"}
+              <span className="text-muted-foreground/60">-&gt; Faster responses, better conversion potential</span>
             </code>
           </pre>
         </motion.div>

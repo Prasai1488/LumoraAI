@@ -10,34 +10,44 @@ import { motion } from "framer-motion";
 
 const faqs = [
   {
-    question: "What models does LumoraAI support?",
+    question: "Can you build a website that matches my business and brand?",
     answer:
-      "LumoraAI supports all major open-source and proprietary models including GPT-4, Claude, Llama 3, Mistral, and custom fine-tuned models. You can also bring your own weights and deploy them on our infrastructure.",
+      "Yes. We create websites that reflect your business, services, and goals while keeping the experience clear and professional for your customers. Our focus is not just design, but helping your website build trust, generate inquiries, and support business growth.",
   },
   {
-    question: "How does billing work for API usage?",
+    question: "How can an AI chatbot help my business?",
     answer:
-      "Each plan includes a monthly allocation of API calls. Overage is billed at $0.002 per 1K tokens for standard inference and $0.008 for GPU-accelerated inference. You can set spending limits and receive alerts at 80% and 100% of your budget.",
+      "An AI chatbot can answer common questions, guide visitors, and respond even when you are unavailable. This helps reduce missed opportunities, improves response time, and gives potential customers a smoother first experience with your business.",
   },
   {
-    question: "Can I deploy LumoraAI in my own VPC?",
+    question: "Will I actually get more leads from my website?",
     answer:
-      "Yes. Enterprise customers can deploy LumoraAI in their AWS, GCP, or Azure VPC with full data residency controls. We also offer on-premise deployment for organizations with strict compliance requirements.",
+      "A better website alone does not guarantee results, but a clear message, stronger call to action, and better lead capture can make a big difference. We build with conversion in mind so your website is more likely to turn visitors into inquiries.",
   },
   {
-    question: "What security certifications do you have?",
+    question: "What kinds of business tasks can you automate?",
     answer:
-      "LumoraAI is SOC 2 Type II certified, GDPR compliant, and HIPAA-ready. All data is encrypted at rest (AES-256) and in transit (TLS 1.3). We conduct regular third-party penetration testing and maintain a public security page.",
+      "We can help automate tasks like replying to inquiries, collecting leads, handling appointment requests, and organizing customer communication. The goal is to reduce repetitive work, save time, and make your business respond more consistently.",
   },
   {
-    question: "Is there a free trial available?",
+    question: "How long does a project usually take?",
     answer:
-      "Yes! The Starter plan includes a 14-day free trial with full access to all features. No credit card required. You can upgrade, downgrade, or cancel at any time from your dashboard.",
+      "Timelines depend on the scope of work, but most website and automation projects move faster when requirements are clear from the beginning. After learning about your needs, we can give you a realistic timeline and a step-by-step rollout plan.",
   },
   {
-    question: "How fast is model inference?",
+    question: "Do you offer fixed prices or custom quotes?",
     answer:
-      "Standard inference averages 200–400ms time-to-first-token. GPU-accelerated inference on Pro and Enterprise plans achieves 50–100ms. Our global edge network ensures low latency regardless of your users' location.",
+      "We usually provide custom quotes based on your goals, the features you need, and the complexity of the project. This helps ensure you only pay for the right solution instead of being forced into a one-size-fits-all package.",
+  },
+  {
+    question: "Will you support us after the project is launched?",
+    answer:
+      "Yes. We can continue supporting your website and automation after launch with updates, improvements, troubleshooting, and optimization. Ongoing support helps your system stay effective as your business changes and new opportunities come up.",
+  },
+  {
+    question: "How do we get started with Lumora AI?",
+    answer:
+      "The best first step is to contact us with your business goals, current challenges, and the kind of results you want. From there, we can recommend the right solution, outline the next steps, and prepare a custom quote for you.",
   },
 ];
 

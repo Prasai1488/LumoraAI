@@ -32,12 +32,17 @@ export function Contact() {
               Contact
             </p>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Let&apos;s build something brilliant
+              Let&apos;s Talk About Your Business Goals
             </h2>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              Ready to transform your business with AI? Our team of solutions engineers
-              is standing by to help you architect, deploy, and scale your intelligent
-              applications.
+              Schedule a consultation with Lumora AI to explore how a better website,
+              smarter lead capture, or simple automation could support your business
+              growth.
+            </p>
+            <p className="mt-4 leading-relaxed text-muted-foreground">
+              Even if you are not sure whether AI or automation is the right fit, we are
+              happy to talk through your goals, answer your questions, and help you find
+              the best next step with confidence.
             </p>
 
             <div className="mt-10 space-y-6">
