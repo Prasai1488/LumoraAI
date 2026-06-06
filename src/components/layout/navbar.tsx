@@ -39,9 +39,9 @@ export function Navbar() {
           <Image
             src="/lumoraLogo.png"
             alt="LumoraAI logo"
-            width={320}
-            height={96}
-            className="h-20 w-auto"
+            width={140}
+            height={80}
+            className="h-16 w-auto"
             priority
           />
         </a>
