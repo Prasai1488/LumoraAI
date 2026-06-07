@@ -22,7 +22,7 @@ const stats = [
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center pt-24 pb-20">
+    <section className="relative min-h-screen pt-24 pb-20">
       <div className="mesh-bg absolute inset-0 -z-10" />
 
       <div className="mx-auto max-w-6xl px-6">
@@ -91,7 +91,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.5 }}
-          className="mt-20 grid grid-cols-3 gap-8 border-t border-white/5 pt-12"
+          className="mt-20 grid gap-8 border-t border-white/5 pt-12 sm:grid-cols-3"
         >
           {stats.map((stat, i) => (
             <motion.div
