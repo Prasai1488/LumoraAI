@@ -1,9 +1,9 @@
 import { Sparkles } from "lucide-react";
 
 const footerLinks = {
-  Product: ["Services", "Pricing", "Integrations", "Changelog"],
-  Company: ["About", "Careers", "Blog", "Press"],
-  Legal: ["Privacy", "Terms", "Security"],
+  Services: ["Website Development", "AI Chatbots", "Lead Capture", "Automation"],
+  Solutions: ["Professional Website", "Growth Package", "AI Automation Package"],
+  Company: ["About", "FAQ", "Contact", "Support"],
 };
 
 export function Footer() {
@@ -21,7 +21,8 @@ export function Footer() {
               </span>
             </div>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Illuminating the path to intelligent automation for forward-thinking teams worldwide.
+              Modern websites and AI automation to help Nepal businesses generate more
+              leads, respond faster, and grow with confidence.
             </p>
           </div>
 
@@ -46,10 +47,10 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 sm:flex-row">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} LumoraAI. All rights reserved.
+            Copyright {new Date().getFullYear()} Lumora AI. All rights reserved.
           </p>
           <div className="flex gap-6">
-            {["Twitter", "LinkedIn", "GitHub"].map((social) => (
+            {["Facebook", "Instagram", "LinkedIn"].map((social) => (
               <a
                 key={social}
                 href="#"

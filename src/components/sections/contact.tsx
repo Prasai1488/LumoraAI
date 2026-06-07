@@ -65,10 +65,8 @@ export function Contact() {
                   <MapPin className="size-4 text-accent" />
                 </div>
                 <div>
-                  <p className="font-medium">Headquarters</p>
-                  <p className="text-sm text-muted-foreground">
-                    100 AI Boulevard, San Francisco, CA 94105
-                  </p>
+                  <p className="font-medium">Based in</p>
+                  <p className="text-sm text-muted-foreground">Kathmandu, Nepal</p>
                 </div>
               </div>
             </div>
@@ -142,7 +140,7 @@ export function Contact() {
                       placeholder="Tell us about your project..."
                       rows={4}
                       required
-                      className="border-white/10 bg-white/5 resize-none"
+                      className="resize-none border-white/10 bg-white/5"
                     />
                   </div>
                   <Button
