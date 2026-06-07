@@ -1,4 +1,4 @@
-import { Sparkles } from "lucide-react";
+import Image from "next/image";
 
 const footerLinks = {
   Services: ["Website Development", "AI Chatbots", "Lead Capture", "Automation"],
@@ -12,13 +12,14 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-12 md:grid-cols-4">
           <div className="md:col-span-1">
-            <div className="mb-4 flex items-center gap-2">
-              <div className="flex size-8 items-center justify-center rounded-lg bg-primary/10 ring-1 ring-primary/30">
-                <Sparkles className="size-3.5 text-primary" />
-              </div>
-              <span className="font-semibold">
-                Lumora<span className="text-primary">AI</span>
-              </span>
+            <div className="mb-4">
+              <Image
+                src="/lumoraLogo.png"
+                alt="Lumora AI logo"
+                width={140}
+                height={80}
+                className="h-16 w-auto"
+              />
             </div>
             <p className="text-sm leading-relaxed text-muted-foreground">
               Modern websites and AI automation to help Nepal businesses generate more

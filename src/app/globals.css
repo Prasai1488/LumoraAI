@@ -98,20 +98,6 @@
     @apply font-sans scroll-smooth;
   }
 
-  @media (pointer: fine) {
-    body {
-      cursor: none;
-    }
-
-    a,
-    button,
-    input,
-    textarea,
-    select,
-    [role="button"] {
-      cursor: none;
-    }
-  }
 }
 
 @layer utilities {
