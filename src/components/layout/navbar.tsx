@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const navLinks = [
   { label: "Services", href: "#services" },
-  { label: "Pricing", href: "#pricing" },
+  { label: "Solutions", href: "#pricing" },
   { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ];
@@ -38,10 +38,10 @@ export function Navbar() {
         <a href="#" className="group flex items-center gap-2">
           <Image
             src="/lumoraLogo.png"
-            alt="LumoraAI logo"
-            width={320}
-            height={96}
-            className="h-20 w-auto"
+            alt="Lumora AI logo"
+            width={140}
+            height={80}
+            className="h-16 w-auto"
             priority
           />
         </a>
@@ -60,14 +60,14 @@ export function Navbar() {
 
         <div className="hidden items-center gap-3 md:flex">
           <Button variant="ghost" size="sm" render={<a href="#contact" />}>
-            Sign in
+            Book a Call
           </Button>
           <Button
             size="sm"
             className="glow-border bg-primary/90 hover:bg-primary"
             render={<a href="#contact" />}
           >
-            Get Started
+            Get a Quote
           </Button>
         </div>
 
@@ -106,7 +106,7 @@ export function Navbar() {
                   <a href="#contact" onClick={() => setMobileOpen(false)} />
                 }
               >
-                Get Started
+                Get a Quote
               </Button>
             </nav>
           </motion.div>

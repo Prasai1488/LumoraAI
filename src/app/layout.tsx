@@ -13,10 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LumoraAI — Intelligent AI Solutions for the Future",
+  title: "Lumora AI | AI Automation & Websites in Nepal",
   description:
-    "LumoraAI builds cutting-edge artificial intelligence products that transform how businesses automate, analyze, and innovate.",
-  keywords: ["AI", "machine learning", "automation", "LumoraAI", "artificial intelligence"],
+    "Lumora AI helps Nepal businesses grow with modern websites, AI chatbots, lead capture, and business automation.",
+  keywords: [
+    "AI Automation Nepal",
+    "AI Chatbots Nepal",
+    "Website Development Nepal",
+    "Business Automation Nepal",
+    "Lead Generation Nepal",
+  ],
+  openGraph: {
+    title: "Lumora AI | AI Automation, Chatbots & Websites in Nepal",
+    description:
+      "Helping businesses in Nepal generate more leads, respond faster, and grow with modern websites, AI chatbots, and smart automation.",
+    type: "website",
+    locale: "en_US",
+  },
 };
 
 export default function RootLayout({

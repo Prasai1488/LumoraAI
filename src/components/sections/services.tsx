@@ -7,49 +7,49 @@ import { Bot, Brain, LineChart, MessageSquare, Shield, Workflow } from "lucide-r
 const services = [
   {
     icon: Brain,
-    title: "Neural Inference Engine",
+    title: "Website Design & Development",
     description:
-      "Deploy custom models with sub-second latency. Our distributed GPU cluster handles billions of tokens daily.",
+      "Get a modern, professional website that builds trust, clearly presents your services, and turns more visitors into real inquiries for your business.",
     color: "text-primary",
     bg: "bg-primary/10 ring-primary/20",
   },
   {
     icon: Bot,
-    title: "Autonomous Agents",
+    title: "AI Chatbots",
     description:
-      "Build AI agents that reason, plan, and execute multi-step workflows across your entire tech stack.",
+      "Answer customer questions instantly, even outside business hours, so you never miss opportunities and every potential client gets a faster response.",
     color: "text-accent",
     bg: "bg-accent/10 ring-accent/20",
   },
   {
     icon: MessageSquare,
-    title: "Conversational AI",
+    title: "Lead Capture Systems",
     description:
-      "Fine-tuned LLMs with RAG pipelines, memory, and guardrails for production-grade chat experiences.",
+      "Capture inquiries from your website in a clear, organized way so your team can follow up quickly and convert more interested visitors into customers.",
     color: "text-primary",
     bg: "bg-primary/10 ring-primary/20",
   },
   {
     icon: LineChart,
-    title: "Predictive Analytics",
+    title: "Business Automation",
     description:
-      "Turn raw data into actionable forecasts with autoML pipelines and real-time anomaly detection.",
+      "Reduce repetitive manual work by automating routine tasks, helping your business save time, improve consistency, and focus more on growth.",
     color: "text-accent",
     bg: "bg-accent/10 ring-accent/20",
   },
   {
     icon: Workflow,
-    title: "Workflow Automation",
+    title: "Appointment & Inquiry Management",
     description:
-      "Orchestrate complex business processes with intelligent triggers, routing, and human-in-the-loop.",
+      "Make it easier for customers to book appointments or send inquiries while keeping your follow-up process smooth, timely, and professionally managed.",
     color: "text-primary",
     bg: "bg-primary/10 ring-primary/20",
   },
   {
     icon: Shield,
-    title: "Enterprise Security",
+    title: "Ongoing Support & Optimization",
     description:
-      "SOC 2 Type II certified with end-to-end encryption, VPC deployment, and granular access controls.",
+      "Keep your website and automation performing at their best with ongoing updates, improvements, and support as your business continues to grow.",
     color: "text-accent",
     bg: "bg-accent/10 ring-accent/20",
   },
@@ -83,10 +83,10 @@ export function Services() {
             Services
           </p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Everything you need to build with AI
+            Solutions Built to Help Your Business Grow
           </h2>
           <p className="mt-4 text-muted-foreground">
-            From prototype to production, LumoraAI provides the full stack for intelligent applications.
+            From professional websites to smart automation, we help businesses attract more leads, respond faster, and deliver a better customer experience.
           </p>
         </motion.div>
 

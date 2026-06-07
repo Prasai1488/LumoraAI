@@ -9,53 +9,54 @@ import { Check } from "lucide-react";
 
 const plans = [
   {
-    name: "Starter",
-    price: "$49",
-    period: "/month",
-    description: "Perfect for indie developers and small teams exploring AI.",
-    features: [
-      "100K API calls / month",
-      "3 deployed models",
-      "Community support",
-      "Basic analytics dashboard",
-      "Standard inference speed",
-    ],
-    highlighted: false,
-    cta: "Start free trial",
-  },
-  {
-    name: "Pro",
-    price: "$199",
-    period: "/month",
-    description: "For growing teams that need scale, speed, and priority support.",
-    features: [
-      "5M API calls / month",
-      "Unlimited deployed models",
-      "Priority email & chat support",
-      "Advanced analytics & logging",
-      "GPU-accelerated inference",
-      "Custom model fine-tuning",
-      "99.9% uptime SLA",
-    ],
-    highlighted: true,
-    cta: "Get started",
-  },
-  {
-    name: "Enterprise",
+    name: "Professional Website",
     price: "Custom",
     period: "",
-    description: "Dedicated infrastructure for organizations with mission-critical AI workloads.",
+    description: "A strong starting package for businesses that need a modern online presence built to earn trust and generate inquiries.",
     features: [
-      "Unlimited API calls",
-      "Dedicated GPU clusters",
-      "24/7 dedicated support",
-      "VPC & on-premise deployment",
-      "Custom SLAs up to 99.99%",
-      "SSO & advanced RBAC",
-      "Dedicated solutions engineer",
+      "Modern, professional website design",
+      "Mobile-friendly page layouts",
+      "Clear service and business messaging",
+      "Inquiry or contact form setup",
+      "Lead-focused call-to-action sections",
+      "Basic on-page optimization",
     ],
     highlighted: false,
-    cta: "Contact sales",
+    cta: "Request a Quote",
+  },
+  {
+    name: "Growth Package",
+    price: "Custom",
+    period: "",
+    description: "Ideal for businesses ready to combine a high-converting website with smarter lead capture and faster customer communication.",
+    features: [
+      "Everything in the Professional Website package",
+      "Lead capture forms and inquiry flows",
+      "WhatsApp or chat integration",
+      "Automated follow-up message setup",
+      "Appointment or inquiry tracking support",
+      "Conversion-focused page improvements",
+      "Guidance for better customer response flow",
+    ],
+    highlighted: true,
+    cta: "Get a Custom Quote",
+  },
+  {
+    name: "AI Automation Package",
+    price: "Custom",
+    period: "",
+    description: "Best for businesses that want deeper automation to save time, handle inquiries efficiently, and create a smoother customer experience at scale.",
+    features: [
+      "Everything in the Growth Package",
+      "AI chatbot for common customer questions",
+      "Automated inquiry routing and responses",
+      "Appointment booking workflow support",
+      "Business task automation for repetitive work",
+      "Ongoing optimization and performance reviews",
+      "Priority support for updates and improvements",
+    ],
+    highlighted: false,
+    cta: "Talk to Lumora",
   },
 ];
 
@@ -73,13 +74,13 @@ export function Pricing() {
           className="mx-auto mb-16 max-w-2xl text-center"
         >
           <p className="mb-3 text-sm font-medium tracking-widest text-primary uppercase">
-            Pricing
+            Solutions
           </p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Simple, transparent pricing
+            Packages Designed Around Your Business Goals
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Start free, scale as you grow. No hidden fees, no surprises.
+            Choose the level of support that fits your business today, then contact Lumora for a custom quote tailored to your needs.
           </p>
         </motion.div>
 
@@ -87,6 +88,7 @@ export function Pricing() {
           {plans.map((plan, i) => (
             <motion.div
               key={plan.name}
+              className={plan.highlighted ? "pt-4" : undefined}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -96,13 +98,13 @@ export function Pricing() {
                 className={cn(
                   "relative flex h-full flex-col border-white/5",
                   plan.highlighted
-                    ? "glass glow-border border-primary/30 shadow-[0_0_60px_rgba(139,92,246,0.12)]"
+                    ? "glass overflow-visible glow-border border-primary/30 shadow-[0_0_60px_rgba(139,92,246,0.12)]"
                     : "glass"
                 )}
               >
                 {plan.highlighted && (
                   <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground">
-                    Most popular
+                    Best for growing businesses
                   </Badge>
                 )}
                 <CardHeader>
